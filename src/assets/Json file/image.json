@@ -1,0 +1,18 @@
+[
+    {
+      "src": "assets/images/loginbackground.jpeg",
+      "alt": "First slide",
+      "caption": "First Slide Caption"
+    },
+    {
+      "src": "assets/images/joinhand.jpeg",
+      "alt": "Second slide",
+      "caption": "Second Slide Caption"
+    },
+    {
+      "src": "assets/images/image3.jpg",
+      "alt": "Third slide",
+      "caption": "Third Slide Caption"
+    }
+  ]
+  

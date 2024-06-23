@@ -45,7 +45,19 @@ export class LoginComponent {
       //   life: 5000
       // });
       
-    } else {
+    }
+    else if (this.value1 === 'Amit' && this.value2 === 'Amit@123') {
+      sessionStorage.setItem("isLogined", "true");
+      this.router.navigate(['/dashboard']);
+     
+      
+    } 
+    else if (this.value1 === 'a' && this.value2 === 'a123') {
+      sessionStorage.setItem("isLogined", "true");
+      this.router.navigate(['/dashboard']);
+     
+      
+    }else {
       sessionStorage.setItem("isLogined", "false");
       // this.messageService.add({
       //   severity: 'danger',

@@ -108,7 +108,7 @@ export class AppComponent {
       this.faviconService.setFavicon('assets/favicon.png');
     } else {
       document.title = 'Come Back To Our Website';
-      this.faviconService.setFavicon('assets/favhand.png');
+      this.faviconService.setFavicon('assets/Images/joinhand.jpeg');
     }
   }
   
