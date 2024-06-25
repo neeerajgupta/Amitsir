@@ -49,6 +49,40 @@ h1,h2,h3,h4{
     }
 }
 .dashboard{
+    margin-top: 14px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    .backimages{
+        height: 550px;
+        width: 100%;
+    }
+    .search_field{
+        position: absolute;
+        h2{
+            font-size: 70px;
+            margin-bottom: 10px;
+            color: white;
+        }
+        .p-autocomplete.p-inputwrapper{
+            width: 58%;
+            // .p-autocomplete-input.p-inputtext{
+            //     // &::before{
+            //     //     content: "\e908";
+            //     //     font-family: "primeicons";
+            //     //     speak: none;
+            //     //     font-style: normal;
+            //     //     font-weight: normal;
+            //     //     font-variant: normal;
+            //     //     text-transform: none;
+            //     //     line-height: 1;
+            //     // }
+
+            // }
+        }
+    }
     
 }
 
@@ -62,16 +96,15 @@ h1,h2,h3,h4{
         .iconlinks{
             display: flex;
             justify-content: space-around;
-            gap: 32px;
+            gap: 28px;
             .pi{
                 border: 1px solid burlywood;
                 border-radius: 50%;
                 background: #2d2d3b;
-                font-size: 34px;
-                height: 50px;
-                width: 50px;
+                font-size: 28px;
+                height: 30px;
+                width: 30px;
                 text-align: center;
-                padding: 7px;
                 &.pi-instagram{
                     background-image: linear-gradient(red, yellow);
                     color: white;
@@ -90,13 +123,11 @@ h1,h2,h3,h4{
                 }
                 &.pi-facebook{
                     color: #0866ff;
-                    /* color: beige; */
                     background: wheat;
-                    height: 50px;
-                    width: 50px;
-                    font-size: 48px;
+                    height: 30px;
+                    width: 30px;
+                    font-size: 28px;
                     padding: 0;
-                
                 }
             }
         }
